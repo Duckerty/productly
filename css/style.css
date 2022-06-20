@@ -300,4 +300,93 @@ ul[class] {
   font-weight: 600;
   margin-bottom: 12px;
 }
+
+.managers {
+  margin-bottom: 100px;
+}
+
+.managers__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.managers__bg {
+  margin-right: 100px;
+}
+
+.managers__title {
+  margin-bottom: 22px;
+}
+
+.managers__text {
+  margin-bottom: 30px;
+}
+
+.managers__item {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  padding-left: 65px;
+  position: relative;
+}
+
+.managers__item::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/checkbox.svg");
+}
+
+.managers__item:last-child {
+  margin-bottom: 0;
+}
+
+.marketers {
+  margin-bottom: 150px;
+}
+
+.marketers__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+
+.marketers__title {
+  margin-bottom: 22px;
+}
+
+.marketers__item {
+  margin-bottom: 25px;
+}
+
+.marketers__item:last-child {
+  margin-bottom: 0;
+}
+
+.marketers__item-title {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2F281E;
+}
 /*# sourceMappingURL=style.css.map */

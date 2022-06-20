@@ -237,3 +237,68 @@ ul[class]{
     margin-bottom: 12px;
   }
 }
+
+.managers{
+  margin-bottom: 100px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__bg{
+    margin-right: 100px;
+  }
+  &__title{
+    margin-bottom: 22px;
+  }
+  &__text{
+    margin-bottom: 30px;
+  }
+  &__item{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    padding-left: 65px;
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 35px;
+      height: 35px;
+      background-image: url('../images/checkbox.svg');
+    }
+  }
+  &__item:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.marketers{
+  margin-bottom: 150px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+  }
+  &__title{
+    margin-bottom: 22px;
+  }
+  &__item{
+    margin-bottom: 25px;
+  }
+  &__item:last-child{
+    margin-bottom: 0;
+  }
+  &__item-title{
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+  }
+}
