@@ -389,4 +389,157 @@ ul[class] {
   line-height: 26px;
   color: #2F281E;
 }
+
+.team {
+  height: 835px;
+  background-image: url("../images/team-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.team__wrapper {
+  height: 835px;
+  position: relative;
+}
+
+.team__content {
+  max-width: 542px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 230px;
+}
+
+.team__title {
+  margin-bottom: 22px;
+}
+
+.team__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #567592;
+  margin-bottom: 45px;
+}
+
+.team__button {
+  padding: 15px 30px;
+  background: #FF9900;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.team__item {
+  position: absolute;
+}
+
+.team__item::after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 54px;
+}
+
+.team__member1 {
+  top: 210px;
+  left: 20px;
+}
+
+.team__member1::after {
+  content: 'I can take care of your pitch';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 54px;
+  background-image: url("../images/team/cloud1.svg");
+  width: 274px;
+  height: 63px;
+  z-index: 2;
+  position: inherit;
+  top: -40px;
+  left: 58px;
+}
+
+.team__member2 {
+  top: 157px;
+  right: 50px;
+}
+
+.team__member2::after {
+  content: 'I can help marketing strategy';
+  position: inherit;
+  width: 281px;
+  height: 59px;
+  top: -37px;
+  right: 60px;
+  background-image: url("../images/team/cloud2.svg");
+}
+
+.team__member3 {
+  bottom: 200px;
+  left: 250px;
+}
+
+.team__member3::after {
+  content: 'I can design you website';
+  position: inherit;
+  width: 263px;
+  height: 59px;
+  top: -42px;
+  left: -206px;
+  background-image: url("../images/team/cloud3.svg");
+}
+
+.team__member4 {
+  bottom: 135px;
+  right: 350px;
+}
+
+.team__member4::after {
+  content: 'I will define the profile of your users';
+  position: inherit;
+  width: 321px;
+  height: 59px;
+  top: -43px;
+  left: -261px;
+  background-image: url("../images/team/cloud4.svg");
+}
+
+.team__member5 {
+  bottom: 257px;
+  right: 0;
+}
+
+.team__member5::after {
+  content: 'I can prototype your app';
+  position: inherit;
+  top: -42px;
+  left: -198px;
+  width: 240px;
+  height: 59px;
+  background-image: url("../images/team/cloud5.svg");
+}
 /*# sourceMappingURL=style.css.map */
